@@ -222,7 +222,7 @@ jobs:
           rm -rf ./vice/build/msys2/github-actions-build.sh
           cp my_build.sh ./vice/build/msys2/github-actions-build.sh
       - name: Download Documentation
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: vice-pdf
           path: vice/doc/
